@@ -1,5 +1,7 @@
 [![hexlet-ci-app](https://github.com/shelestova-a/hexlet-ci-app/actions/workflows/hexlet-ci.yaml/badge.svg)](https://github.com/shelestova-a/hexlet-ci-app/actions/workflows/hexlet-ci.yaml)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/shelestova-a/hexlet-ci-app/badge.svg)](https://snyk.io/test/github/shelestova-a/hexlet-ci-app)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
