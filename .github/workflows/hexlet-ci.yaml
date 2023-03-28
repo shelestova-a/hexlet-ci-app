@@ -8,12 +8,9 @@ jobs:
 
     steps: 
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: setup
         uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
       - run: make lint
-          needs: Use Node.js ${{ matrix.node-version }}
+          needs: setup
       - run: make test
-          needs: Use Node.js ${{ matrix.node-version }}
+          needs: setup
