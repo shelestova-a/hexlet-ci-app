@@ -14,4 +14,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: make lint
+          needs: Use Node.js ${{ matrix.node-version }}
       - run: make test
+          needs: Use Node.js ${{ matrix.node-version }}
